@@ -1,0 +1,90 @@
+/* Element Selector: Basic styling for the body */
+body {
+  font-family: 'Georgia', serif; /* A different font */
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Element Selector: Styling for header */
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Class Selector: Styling for section headers */
+.section-header {
+  font-size: 1.5em;
+  color: #444;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Element Selector: Styling for ordered lists */
+ol {
+  margin: 20px;
+  padding-left: 40px;
+}
+
+/* Element Selector: Styling for images */
+img {
+  display: block;
+  margin: 20px auto; /* Centering the image */
+  border: 5px solid #ddd; /* Border styling */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Element Selector: Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+table th, table td {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+table th {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Element Selector: Styling for forms */
+form {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 600px;
+}
+form div {
+  margin-bottom: 15px;
+}
+form label {
+  display: inline-block;
+  width: 120px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+  width: calc(100% - 140px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ID Selector: Footer styling */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #444;
+  color: #fff;
+}
